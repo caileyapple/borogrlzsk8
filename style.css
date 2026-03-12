@@ -20,6 +20,15 @@ header p {
   opacity: 0.8;
 }
 
+.tab-content h2,
+.tab-content h3,
+.tab-content h4,
+.tab-content h5,
+.tab-content h6 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
 .tabs {
   display: flex;
   justify-content: center;
