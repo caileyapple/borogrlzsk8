@@ -30,27 +30,44 @@ header p {
 .tabs {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 30px;
+  border-bottom: 2px solid #e5e7eb;
+  margin-bottom: 30px;
 }
 
-.tabs button{
-  padding:10px 20px;
-  cursor:pointer;
-  color: gray;
+.tab-button {
+  background: none;
   border: none;
-  background: white;
-  border-radius: 6px 6px 0 0;
-  font-size: 16px;
+  font-size: 18px;
+  padding: 10px 0;
+  cursor: pointer;
+  color: #6b7280;
+  position: relative;
+  transition: color 0.2s;
 }
 
-.tabs button:hover {
-  background: #E5E7EB;
+.tab-button:hover {
+  color: black;
 }
 
-.tabs button{
-  padding:10px;
-  cursor:pointer;
+.tab-button::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background: #EC4899;
+  left: 0;
+  bottom: -2px;
+  transition: width 0.3s;
+}
+
+.tab-button.active {
+  color: black;
+  font-weight: bold;
+}
+
+.tab-button.active::after {
+  width: 100%;
 }
 
 .tab-content{
