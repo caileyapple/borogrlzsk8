@@ -28,8 +28,8 @@ header p {
 }
 
 .Media img {
-  max-width: 250px
-  width: 60%}
+  max-width: 150px
+  height: 60%}
 
 .photo-gallery {
   display: grid;
