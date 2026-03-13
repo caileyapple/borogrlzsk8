@@ -28,7 +28,7 @@ header p {
 }
 
 #Media img {
-  max-width: 150px;
+  max-width: 400px;
   height: 60%
 }
 
@@ -40,7 +40,7 @@ header p {
 }
 
 .photo-gallery img:hover {
-  transform: scale(2.00);
+  transform: scale(3.00);
 }
 
 .tabs {
