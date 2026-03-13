@@ -23,8 +23,8 @@ header p {
 }
 
 #Home img {
-  max-width: 25%;
-  height: 25%;
+  max-width: 200px;
+  height: 200px;
 }
 
 #Media img {
