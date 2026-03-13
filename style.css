@@ -1,5 +1,5 @@
 body {
-  font-family: Arial;
+  font-family: Georgia;
   margin: 48px;
   background: #F5D0ED;
 }
@@ -22,15 +22,9 @@ header p {
   font-family: 'Lacquer';
 }
 
-.Media {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .Media img {
-  max-width: 200px
-  width: 80%}
+  max-width: 250px
+  width: 60%}
 
 .photo-gallery {
   display: grid;
