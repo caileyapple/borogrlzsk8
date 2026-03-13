@@ -28,7 +28,7 @@ header p {
 }
 
 .Media img {
-  max-width: 150px
+  max-width: 150px;
   height: 60%}
 
 .photo-gallery {
@@ -39,7 +39,7 @@ header p {
 }
 
 .photo-gallery img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
